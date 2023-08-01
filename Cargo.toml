@@ -1,0 +1,8 @@
+[package]
+name = "multivers-demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+verslib-v1 = { path = "verslib-v1", package = "verslib" }
+verslib-v2 = { path = "verslib-v2", package = "verslib" }
